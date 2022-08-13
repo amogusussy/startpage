@@ -46,10 +46,9 @@ a {
     text-decoration: none;
     color: var(--color);
 }
-@media (prefers-color-scheme: light) {
-    :root {
-        --color: #d3d2d2;
-        --back-color: #161616;
-        --content-color:#202124;
-    }
-}
+@media only screen and (max-width: 1050px) {
+    .widget-container {
+       grid-auto-flow: unset;
+       margin-left: 25%;
+       margin-right: 25%;
+} input {width: 250px;}}
